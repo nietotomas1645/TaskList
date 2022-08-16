@@ -1,0 +1,25 @@
+.task{
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.task.reminder{
+    border-left: 5px solid rgb(96, 209, 96);
+}
+
+.task h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task fa-icon{
+    color: red;
+}
+
+.task p{
+    color: green;
+    font-style: oblique;
+}
